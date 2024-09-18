@@ -1,0 +1,67 @@
+<html lang="en">
+<body style="background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600');">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Positioning Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .link {
+            position: absolute;
+            font-size: 18px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        .right {
+            right: 0;
+            top: 0;
+            margin: 10px;
+        }
+
+        .right-middle {
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 10px;
+        }
+
+        .left-middle {
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 10px;
+        }
+
+        .left {
+            left: 0;
+            top: 0;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="file:///C:/Users/LAB%205%20ATISA%208/Documents/Jason%20Sebastiano%20MG%2011.3/PS%2017%20AGUSTUS/17%20agst.html" class="link right"target="kanan">Tugas ke-3</a>
+        <a href="bullying.html" class="link right-middle"target="kanan">UBer</a>
+        <a href="file:///C:/Users/LAB%205%20ATISA%208/Documents/Jason%20Sebastiano%20MG%2011.3/era%20globalisasi.html" class="link left-middle"target="kanan">Tugas ke-2</a>
+        <a href="file:///C:/Users/LAB%205%20ATISA%208/Documents/Jason%20Sebastiano%20MG%2011.3/ll.html" class="link left"target="kanan">Tugas ke-1</a>
+    </div>
+</body>
+</html>
